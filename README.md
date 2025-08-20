@@ -37,18 +37,6 @@ This project uses embedded SQL queries within Python to:
 | /Genderwisepatients | GET | Gender-wise patient distribution | 
 | /risk_factors | GET | Age-wise count of patients who answered "No" to habits | 
 
-
-
-Getting Started
-- Clone the repository:
-git clone https://github.com/your-username/oral-cancer-api.git
-cd oral-cancer-api
-- Ensure the SQLite database is placed at:
-./oral_cancer_app/sqlite_backup/people.db
-- Run the Flask server:
-python app.py
-
-
 The project highlights originality in risk factor segmentation and demographic filtering
 
 ##Bottom-line of my SQL-driven backend application: I avoided using a global connection string as Each route establishes its own scoped database connection via get_db_connection(), ensuring thread safety, minimizing resource leaks, and preserving transactional integrity across concurrent requests. This design choice aligns with best practices for scalable, production-grade Flask APIs.
