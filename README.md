@@ -8,13 +8,14 @@ This API empowers healthcare professionals and researchers to:
 - Support resource planning through age-wise and gender-wise patient counts
 - Ensure data integrity via secure adapter-based connection and runtime filtering
 
-Key Features
--| Category | Description | 
--| Adapter Connection | Secure SQLite3 adapter with cursor-based execution | 
--| Runtime GET Requests | Dynamic endpoints accepting user input via query parameters | 
--| Risk Factor Analysis | Filters patients who answered "No" to specific habits | 
--| Demographic Insights | Age-wise and gender-wise patient counts for planning | 
--| Data Integrity | Parameterized queries to prevent injection and ensure consistency | 
+| **Category**                    | **Description**                                                                                                                                                                    |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adapter Connection**          | Secure **SQLite3 adapter** with cursor-based execution for reliable query management and transaction handling.                                                                     |
+| **Runtime GET Requests**        | Dynamic **RESTful endpoints** accepting user input via query parameters for real-time data filtering.                                                                              |
+| **Risk Factor Analysis**        | Aggregates patients who answered **“No”** to specific habits (alcohol intake, paan, smoking, tobacco chewing).                                                                     |
+| **Demographic Insights**        | Provides **age-wise and gender-wise patient counts** to support data-driven healthcare planning.                                                                                   |
+| **Data Integrity**              | Ensures **database consistency and protection** using **parameterized SQL queries** to prevent injection vulnerabilities.                                                          |
+| **Troubleshooting & Debugging** | Applied **debugging steps** such as verifying database connection strings, validating cursor objects, and testing adapter responses to maintain stable API–database communication. |
 
 
 
