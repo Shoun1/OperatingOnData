@@ -20,11 +20,11 @@ Key Features
 
 🧪 SQL Integration Highlights
 This project uses embedded SQL queries within Python to:
-- ✅ Store & Retrieve: SELECT statements for patient data and schema introspection
-- ✅ Manipulate Data: Filtered queries for age and habit-based segmentation
-- ✅ Transaction Safety: Cursor-based execution ensures atomicity and rollback safety
-- ✅ Content Management: Structured JSON responses for frontend or analytics pipelines
-- ✅ Embedded SQL: Direct SQL statements within Flask routes for rapid prototyping
+Store & Retrieve: SELECT statements for patient data and schema introspection
+Manipulate Data: Filtered queries for age and habit-based segmentation
+Transaction Safety: Cursor-based execution ensures atomicity and rollback safety
+Content Management: Structured JSON responses for frontend or analytics pipelines
+Embedded SQL: Direct SQL statements within Flask routes for rapid prototyping
 
 📁 API Endpoints
 | Endpoint | Method | Description | 
@@ -40,7 +40,3 @@ This project uses embedded SQL queries within Python to:
 The project highlights originality in risk factor segmentation and demographic filtering
 
 ##Bottom-line of my SQL-driven backend application: I avoided using a global connection string as Each route establishes its own scoped database connection via get_db_connection(), ensuring thread safety, minimizing resource leaks, and preserving transactional integrity across concurrent requests. This design choice aligns with best practices for scalable, production-grade Flask APIs.
-
-
-Ready to archive this with pride. Let me know if you'd like a matching resume bullet or LinkedIn post to seal the deal.
-
