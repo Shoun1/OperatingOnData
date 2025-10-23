@@ -9,12 +9,12 @@ This API empowers healthcare professionals and researchers to:
 - Ensure data integrity via secure adapter-based connection and runtime filtering
 
 Key Features
-| Category | Description | 
-| Adapter Connection | Secure SQLite3 adapter with cursor-based execution | 
-| Runtime GET Requests | Dynamic endpoints accepting user input via query parameters | 
-| Risk Factor Analysis | Filters patients who answered "No" to specific habits | 
-| Demographic Insights | Age-wise and gender-wise patient counts for planning | 
-| Data Integrity | Parameterized queries to prevent injection and ensure consistency | 
+-| Category | Description | 
+-| Adapter Connection | Secure SQLite3 adapter with cursor-based execution | 
+-| Runtime GET Requests | Dynamic endpoints accepting user input via query parameters | 
+-| Risk Factor Analysis | Filters patients who answered "No" to specific habits | 
+-| Demographic Insights | Age-wise and gender-wise patient counts for planning | 
+-| Data Integrity | Parameterized queries to prevent injection and ensure consistency | 
 
 
 
